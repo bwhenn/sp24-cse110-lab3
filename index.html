@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting Minutes</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon-16x16.png">
+  </head>
+  <body>
+        <h1>2024Q1.1 PayPal Front-End Developers Meeting</h1>
+        <h2>Mobile Payment UI Updates</h2>
+        <hr>
+        <main>
+            <header>
+                <nav class="menu">
+                    <ul>
+                      <li><a href="https://www.paypal.com/us/home">Home</a></li>
+                      <li><a href="https://www.paypal.com/va/webapps/mpp/about">About</a></li>
+                      <li><a href="https://www.paypal.com/us/smarthelp/contact-us">Contact</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <h2>Details</h2>
+                    <ul>
+                        <li><b>Date/Time:</b> <time datetime="2024-04-09T9:00">4/9/2024 <strong>9:00AM</strong></time></li>
+                        <li><b>Location:</b> <a href="https://maps.app.goo.gl/fpV3VfFsQLRJEPr18">Conference Room B, <i>Los Angeles Office</i></a></li>
+                        <li><b>Attendees:</b> Emily Chen (<em>Lead</em>), Alex Thompson (<em>Sr. Dev.</em>), Sarah Patel (<em>Jr. Dev.</em>), Max Johnson (<em>Jr. Dev.</em>)</li>
+                    </ul>
+                    <h3>Agenda</h3>
+                    <ul>
+                        <li>Progress updates on payment system tasks.</li>
+                        <li>Discussion on payment system design changes.</li>
+                        <li>Planning upcoming sprints for payment system enhancements.</li>
+                        <li>Addressing any blockers or challenges in payment system development.</li>
+                    </ul>
+                </div>
+            </header>
+            <hr>
+            <section>
+                <h2>Meeting Minutes</h2>
+                <span>
+                    <h3>Summary</h3>
+                    <p>The meeting addressed ongoing tasks such as payment gateway integration and UI/UX improvements tailored to streamline the payment process. They also delved into design changes prompted by user feedback and strategized upcoming sprints to prioritize features and address challenges effectively. Additionally, the team discussed potential security implications and compliance requirements.</p>
+                </span>
+                <ol>
+                    <li><b>Unfinished business</b><br><p>Emily initiated the meeting, directing the team to provide updates on tasks related to the payment system. Alex reported significant progress on integrating the new payment gateway, with backend support nearly complete. </p></li>
+                    <li><b>Payment System Design Changes</b><br><p>Sarah proposed exploring visual cues to indicate payment security and reassure users during transactions. The team agreed to implement these changes in the upcoming sprint, with Emily assigning tasks accordingly.</p></li>
+                    <li><b>Planning Upcoming Sprints</b><br><p>The team transitioned to planning upcoming sprints focused on payment system enhancements. Emily emphasized the importance of prioritizing features such as multi-factor authentication and transaction history display. Max raised concerns about potential security vulnerabilities, prompting a discussion on implementing robust encryption measures.</p></li>
+                    <li><b>Addressing Challenges</b><br><p>Alex highlighted challenges encountered during integration with the new payment gateway, particularly regarding error handling and edge cases. Emily suggested leveraging mock transactions for comprehensive testing and refining error messages to improve user guidance. Max raised concerns about compliance with payment industry regulations.</p></li>
+                    <li><b>Updated UI</b></li>
+                    <img src="paymentDesign.jpg" alt="paymentDesign" width="600">
+                </ol>
+                    <details> <summary>Recordings</summary>
+                        <b>Audio Recording</b> <br>
+                        <audio controls src="MeetingAudio.mp3"></audio> <br>
+                        <b>Video Recording</b> <br>
+                        <video controls src="MeetingVideo.mp4" width="500"></video>
+                    </details>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <h3>End Time:</h3> <time datetime="2024-04-09T9:43">9:43AM</time>
+        
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Meeting Feedback</legend>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    
+                    <datalist id="roles">
+                        <option value="Lead"></option>
+                        <option value="Sr. Developer"></option>
+                        <option value="Jr. Developer"></option>
+                    </datalist>
+                    <label for="role">Role:</label>
+                    <input list="roles" type="text" id="role" name="role" required><br><br>
+                    
+                    <label for="questions">Questions:</label>
+                    <textarea id="questions" name="questions" rows="4" cols="50"></textarea><br><br>           
+                    
+                    <label for="rating">Rate the meeting:</label>
+                    <input type="range" id="rating" name="rating" min="1" max="10"><br><br>
+                    
+                    <label for="agree">Do you agree with the decisions made?</label>
+                    <input type="checkbox" id="agree" name="agree" value="yes">
+                    <label for="agree">Yes</label><br><br>
+                    
+                    <label for="preferred-contact">Preferred Contact Method:</label>
+                    <select id="preferred-contact" name="preferred-contact">
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                        <option value="text">Text</option>
+                    </select><br><br>
+
+                    <label>Meeting Outcome:</label><br>
+                    <input type="radio" id="positive" name="outcome" value="positive">
+                    <label for="positive">Positive</label><br>
+                    <input type="radio" id="neutral" name="outcome" value="neutral">
+                    <label for="neutral">Neutral</label><br>
+                    <input type="radio" id="negative" name="outcome" value="negative">
+                    <label for="negative">Negative</label><br><br>
+                    
+                    <label for="newsletter">Subscribe to Newsletter:</label>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe"><br><br>
+                    
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </footer>
+    </body>
+</html>
