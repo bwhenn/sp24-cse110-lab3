@@ -28,7 +28,9 @@
   }
   
 
-
+  input[type="text"] {
+    background-color: #aaa4a4;
+  }
   
   /* Header styles */
   header {
