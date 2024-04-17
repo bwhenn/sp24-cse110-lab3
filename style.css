@@ -21,14 +21,10 @@
   .example {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
-    & > a {
-      color: tomato;
-      &:hover,
-      &:focus {
+      &:hover{
         color: ivory;
         background-color: tomato;
       }
-    }
   }
   
 
